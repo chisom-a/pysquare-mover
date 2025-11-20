@@ -92,8 +92,8 @@ screen.fill(BKG_COLOR)
 
 # Set up a font object to render the text on screen
 try:
-    font = pygame.font.Font('PressStart2P-Regular.ttf', 16)
-    titleFont = pygame.font.Font('PressStart2P-Regular.ttf', 40)
+    font = pygame.font.Font('font/PressStart2P-Regular.ttf', 16)
+    titleFont = pygame.font.Font('font/PressStart2P-Regular.ttf', 40)
 except (FileNotFoundError):
     font = pygame.font.SysFont('freesansbold', 32)
     titleFont = pygame.font.SysFont('freesansbold', 50)
@@ -253,4 +253,5 @@ while running:
             running = False
 
 pygame.quit()
+
 exit()
