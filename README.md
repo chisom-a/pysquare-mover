@@ -1,5 +1,5 @@
 # PySquare Mover
-PySquare Mover is a game created by me, Chisom A., where you move a blue square with your mouse and must avoid the red squares falling. As the game continues, avoiding the falling squares becomes harder. This game can be useful as it tests the player's reflexes and coordination, and sees how long they can go in a single game session.
+PySquare Mover is a game solely by me, Chisom A., where you move a blue square with your mouse and must avoid the red squares falling. As the game continues, avoiding the falling squares becomes harder. This game can be useful as it tests the player's reflexes and coordination, and sees how long they can go in a single game session.
 
 ## Installation Instructions
 To run the game, download all the files, except the `_media` folder, and run `main.py`. This provides the best experience, as running `main.py` without the other files causes the game to run without its icon and replaces the font with a basic one.
