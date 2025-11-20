@@ -5,12 +5,27 @@ PySquare Mover is a game solely by me, Chisom A., where you move a blue square w
 To run the game, download all the files, except the `_media` folder, and run `main.py`. This provides the best experience, as running `main.py` without the other files causes the game to run without its icon and replaces the font with a basic one.
 
 ## Screenshots
-![Title Screen](_media/title_screen.png "Title Screen")
-![Gameplay](_media/gameplay.png "Gameplay")
-![Game Over Screen](_media/game_over_screen.png "Game Over Screen")
+<figure>
+    <img src="_media/title_screen.png" width="300" height="300"
+         alt="Title Screen">
+</figure>
+
+<figure>
+    <img src="_media/gameplay.png" width="300" height="300"
+         alt="Gameplay">
+</figure>
+
+<figure>
+    <img src="_media/game_over_screen.png" width="300" height="300"
+         alt="Game Over Screen">
+</figure>
 
 ## Demonstration
-[![Watch the video](_media/title_screen.png)](_media/demo.mp4)
+<figure>
+    <a href="_media/demo.mp4">
+    <img src="_media/title_screen.png" width="300" height="300"
+         alt="Watch the video">
+</figure>
 
 ## Tech Stack
 *	Python – the programming language used to code the game
