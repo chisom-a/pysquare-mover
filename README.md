@@ -1,11 +1,22 @@
 # PySquare Mover
-PySquare Mover is a game created by me, Chisom A., where you move a blue square with your mouse and must avoid the red squares falling. As the game continues, avoiding the falling squares becomes harder. This game can be useful as it tests the player's reflexes and coordination.
+PySquare Mover is a game created by me, Chisom A., where you move a blue square with your mouse and must avoid the red squares falling. As the game continues, avoiding the falling squares becomes harder. This game can be useful as it tests the player's reflexes and coordination, and sees how long they can go in a single game session.
+
+## Installation Instructions
+To run the game, download all the files, except the `_media` folder, and run `main.py`. This provides the best experience, as running `main.py` without the other files causes the game to run without its icon and replaces the font with a basic one.
 
 ## Screenshots
+![Title Screen](_media/title_screen.png "Title Screen")
+![Gameplay](_media/gameplay.png "Gameplay")
+![Game Over Screen](_media/game_over_screen.png "Game Over Screen")
 
 ## Demonstration
+[![Watch the video](_media/title_screen.png)](_media/demo.mp4)
 
 ## Tech Stack
+*	Python – the programming language used to code the game
+*	Pygame – the Python library used to render all the GUI components and handle the collision
+*	Random, Schedule – the Python libraries used to randomize the enemy square’s position and run some functions at a certain rate, respectively
+* Photopea – the graphic editing tool used to create the game’s icon
 
 ## Development History
 This game was created for the IGNITON - Fall 2025 Challenge at the Community of Driven Engineers (CODE) Club @ Prince George’s Community College. The game's idea was formed in October 2025, with development of the game starting early November 2025.
