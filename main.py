@@ -1,4 +1,4 @@
-# Copyright 2025 Chisom Anaemeribe
+# Copyright 2025-2026 Chisom Anaemeribe
 # 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,8 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import pygame, random, schedule
+import pygame, random, schedule, os.path
 from pygame.locals import *
+
+# Getting directory where script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
 BKG_COLOR = (188, 230, 170) # Color: #BCE6AA (Green Thumb)
 
@@ -79,7 +82,7 @@ pygame.init()
 
 # Loads the game's icon and window's title
 try:
-    icon = pygame.image.load('icon.png')
+    icon = pygame.image.load(os.path.join(script_dir, 'icon.png'))
     pygame.display.set_icon(icon)
 except (FileNotFoundError):
     pass
@@ -92,8 +95,8 @@ screen.fill(BKG_COLOR)
 
 # Set up a font object to render the text on screen
 try:
-    font = pygame.font.Font('font/PressStart2P-Regular.ttf', 16)
-    titleFont = pygame.font.Font('font/PressStart2P-Regular.ttf', 40)
+    font = pygame.font.Font(os.path.join(script_dir, 'font/PressStart2P-Regular.ttf'), 16)
+    titleFont = pygame.font.Font(os.path.join(script_dir,'font/PressStart2P-Regular.ttf'), 40)
 except (FileNotFoundError):
     font = pygame.font.SysFont('freesansbold', 32)
     titleFont = pygame.font.SysFont('freesansbold', 50)
@@ -253,5 +256,4 @@ while running:
             running = False
 
 pygame.quit()
-
 exit()
